@@ -1,0 +1,36 @@
+h3{
+    width: 100vw;
+    background: mediumblue;
+    color: white;
+}
+.card-tarefa{
+    display: flex;
+    border: rgb(151, 147, 147) solid 1px;
+    border-radius: 20px;
+    box-shadow: 2px 10px 11px -7px;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.botao-tarefa{
+    cursor: pointer;
+}
+#id{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    background: mediumblue;
+    justify-content: center;
+    padding: 5px;
+}
+#adicionar-tarefa{
+    cursor: pointer;
+}
+#tarefa-digitada{
+    width: 450px;
+    margin-right: 30px;
+}
